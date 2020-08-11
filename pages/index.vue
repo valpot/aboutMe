@@ -1,27 +1,18 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        aboutMe
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <Nav/>
+    <div class="container">
+      <div>
+        <Logo />
+        <h1 class="title"> About Me </h1>
+        <div class="links">
+          <a href="https://nuxtjs.org/" target="_blank" rel="noopener noreferrer" class="button--green">
+            Documentation
+          </a>
+          <a href="https://github.com/valpot/aboutMe" target="_blank" rel="noopener noreferrer" class="button--grey">
+            GitHub
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -70,4 +61,5 @@ export default {}
 .links {
   padding-top: 15px;
 }
+
 </style>
