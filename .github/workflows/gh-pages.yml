@@ -27,12 +27,12 @@ jobs:
     - name: getdep
       run: yarn install
     - name: build
-      run: yarn build
+      run: yarn generate
     - name: GitHub Pages
       uses: crazy-max/ghaction-github-pages@v2.1.2
       env:
         GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
       with:
         # Build directory to deploy
-        build_dir: .nuxt
+        build_dir: .nuxt/dist
 
