@@ -16,7 +16,7 @@
 </template>
 
 <style>
-.NuxtLogo {
+.NuxtLogo { 
   animation: 1s appear;
   margin: auto;
 }
